@@ -50,3 +50,11 @@ python main.py
 ```sh
 deactivate
 ```
+
+# 実行ファイルの用意
+
+```sh
+# cd project_root
+pyinstaller main.py --onefile --noconsole
+# dist フォルダに app ができます
+```
