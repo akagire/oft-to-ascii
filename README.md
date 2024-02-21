@@ -42,7 +42,7 @@ source venv/bin/activate
 ## 起動
 
 ```sh
-python main.py
+python oft_converter.py
 ```
 
 ## 終了
@@ -55,6 +55,6 @@ deactivate
 
 ```sh
 # cd project_root
-pyinstaller main.py --onefile --noconsole
+pyinstaller oft_converter.py --onefile --noconsole
 # dist フォルダに app ができます
 ```

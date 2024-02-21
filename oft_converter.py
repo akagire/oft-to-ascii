@@ -33,7 +33,7 @@ def convertMsg():
 
 # ウィンドウの基本設定
 app = tkinter.Tk()
-app.title("Hello World")
+app.title("oft converter")
 app.geometry("300x200")
 
 # 変数管理
